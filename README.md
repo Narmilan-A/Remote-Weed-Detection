@@ -39,8 +39,6 @@ Each of these main folders is accompanied by a `README.md` file that provides fu
 This structure ensures that all relevant resources, data, and documentation are organized systematically, making it easy for users to navigate and utilize the repository effectively.
 
 ## Installation
-### Prerequisites
-
 Before using the resources and scripts in this repository, ensure that you have the necessary dependencies installed. You can use the provided `.yml` file to set up a conda environment with the required packages. Please follow the steps below to create the environment:
 1. Download the provided `environment.yml` file from this repository.
 2. Open a terminal or command prompt.
@@ -54,13 +52,8 @@ Replace `<environment_name>` with the name you provided in the `environment.yml`
 
 After completing these steps, you'll have the required dependencies installed in your conda environment, and you'll be ready to use the resources provided in this repository. If you encounter any issues during the setup process, feel free to reach out to us for assistance.
 
-## Additional Notes
-
+#### Additional Notes
 - For more information about managing conda environments, refer to the [official documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
-
-
-
-### Steps
 
 ## Datasets
 

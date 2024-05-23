@@ -36,14 +36,6 @@ Each of these main folders is accompanied by a `README.md` file that provides fu
 
 **Report and Publication**: Includes reports, publications, and documentation generated from the project findings.
 
-##### Table of Contents
-1. **Introduction**: Overview of the project, its goals, and the technologies used.
-2. **Datasets**: Information about the datasets used, including how to access and utilize them.
-3. **Model Details**: Detailed descriptions of the models and algorithms implemented.
-4. **Results**: Summary of the results and findings from the project, including prediction maps and performance metrics.
-5. **License**: Information about the licensing terms for using the repository.
-6. **Contact**: Contact details for the project contributors for further inquiries and collaborations.
-
 This structure ensures that all relevant resources, data, and documentation are organized systematically, making it easy for users to navigate and utilize the repository effectively.
 
 ## Installation

@@ -20,32 +20,23 @@ The repository is organized into two main folders corresponding to the model wee
 - `Bitou_bush`
 - `Hawkweed`
 
-Each of these main folders is accompanied by a `README.md` file that provides further details and instructions specific to the contents and usage of the files within.
+Each of these main folders is accompanied by a `README.md` file that provides further details and instructions specific to the contents and usage of the files within. Each main folder includes the following sub-folders:
 
-Each main folder includes the following sub-folders:
+**Ground truth labelling**: Contains the ground truth data and associated labeling files used for training and testing the detection models.
 
-##### Ground truth labelling
-Contains the ground truth data and associated labeling files used for training and testing the detection models.
+**Multispectral_dataset**: Contains the multispectral imaging datasets utilized in the project.
 
-##### Multispectral_dataset
-Contains the multispectral imaging datasets utilized in the project.
+**Hyperspectral_dataset**: Holds the hyperspectral imaging datasets used in the project.
 
-##### Hyperspectral_dataset
-Holds the hyperspectral imaging datasets used in the project.
+**Model**: Includes the models used for training, validating, and testing weed detection algorithms.
 
-##### Model
-Includes the models used for training, validating, and testing weed detection algorithms.
+**Scripts**: Holds various scripts used throughout the project for data processing, model training, and evaluation.
 
-##### Scripts
-Holds various scripts used throughout the project for data processing, model training, and evaluation.
+**Prediction**: Stores the prediction outputs from the trained models.
 
-##### Prediction
-Stores the prediction outputs from the trained models.
+**Report and Publication**: Includes reports, publications, and documentation generated from the project findings.
 
-##### Report and Publication
-Includes reports, publications, and documentation generated from the project findings.
-
-#### Table of Contents
+##### Table of Contents
 1. **Introduction**: Overview of the project, its goals, and the technologies used.
 2. **Datasets**: Information about the datasets used, including how to access and utilize them.
 3. **Model Details**: Detailed descriptions of the models and algorithms implemented.

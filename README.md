@@ -56,4 +56,15 @@ After completing these steps, you'll have the required dependencies installed in
 **For more information**: Refer to the [official documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
 ## Datasets
-The Target Weed Detection Repository is a comprehensive resource for researchers and practitioners interested in leveraging UAV technology for precise weed detection. Featuring data on specific target weed species like Hawkweed and BitouBush, the repository delineates various site locations where detection efforts have been conducted, ranging from 15Mile and Longplain to New Zealand and Birdies beach. Utilizing advanced UAV platforms such as the M600 and specialized sensor models like the Micasense Altum and AFX, the repository showcases a variety of setups tailored for multispectral and hyperspectral analysis. With insights into sensor types, site specifics, and UAV configurations, this repository serves as a valuable hub for advancing weed management strategies through cutting-edge aerial detection methodologies.
+This repository is a comprehensive resource for researchers and practitioners interested in leveraging UAV technology for precise weed detection. Featuring data on specific target weed species like Hawkweed and BitouBush, the repository delineates various site locations where detection efforts have been conducted, ranging from 15Mile and Longplain to New Zealand and Birdies beach. Utilizing advanced UAV platforms such as the M300 and M600 and specialised sensor models such as the Micasense Altum (Multispectral camera) and Specim AFX VNIR (Hyperspectral camera), the repository showcases a variety of setups tailored for multispectral and hyperspectral analysis.
+
+## License
+
+## Contact
+For inquiries, feedback, or collaboration opportunities, please feel free to reach out:
+
+- **Email:** [narmilan.amarasingam@hdr.qut.edu.au](mailto:narmilan.amarasingam@hdr.qut.edu.au)
+- **Issue Tracker:** [GitHub Issues](https://github.com/Narmilan-A)
+- **LinkedIn:** [Narmilan Amarasingam](https://www.linkedin.com/in/narmilan-amarasingam-ab7086115/)
+- **Project website:** [More information](https://www.csu.edu.au/research/gulbali/research/agricultural-innovation/projects/weed-managers-guide-to-remote-detection)
+

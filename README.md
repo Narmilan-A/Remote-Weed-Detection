@@ -58,6 +58,9 @@ After completing these steps, you'll have the required dependencies installed in
 ## Datasets
 This repository is a comprehensive resource for researchers and practitioners interested in leveraging UAV technology for precise weed detection. Featuring data on specific target weed species like Hawkweed and BitouBush, the repository delineates various site locations where detection efforts have been conducted, ranging from 15Mile and Longplain to New Zealand and Birdies beach. Utilizing advanced UAV platforms such as the M300 and M600 and specialised sensor models such as the Micasense Altum (Multispectral camera) and Specim AFX VNIR (Hyperspectral camera), the repository showcases a variety of setups tailored for multispectral and hyperspectral analysis.
 
+## Model details
+In this project, a combination of classical machine learning techniques and deep learning architectures was employed for various computer vision tasks. Classical ML models such as Extreme Gradient Boosting (XGBoost), Random Forest(RF), Support Vector Machine (SVM), and K-Nearest Neighbors (KNN) were utilized alongside deep learning models like U-Net. These models were specifically applied for semantic segmentation tasks targeting different morphologies, including mixing of foliage and flowers, as well as individual identification of flowers and foliage. The diverse range of models utilized underscores the comprehensive approach taken to tackle weed detection challenges using both traditional and cutting-edge machine learning methodologies.
+
 ## License
 
 ## Contact

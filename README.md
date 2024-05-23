@@ -47,18 +47,6 @@ Before using the resources and scripts in this repository, ensure that you have 
 ```shell
    conda env create -f environment.yml
 
-5. Once the environment is created, activate it using the following command: conda activate <environment_name>
-
-After completing these steps, you'll have the required dependencies installed in your conda environment, and you'll be ready to use the resources provided in this repository. If you encounter any issues during the setup process, feel free to reach out to us for assistance. Orelse for more information about managing conda environments, refer to the [official documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
-
-## Datasets
-
-## Model Details
-
-## License
-
-## Contact
-
 
 
 

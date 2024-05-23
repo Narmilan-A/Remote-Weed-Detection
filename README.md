@@ -45,11 +45,4 @@ Before using the resources and scripts in this repository, ensure that you have 
 3. Navigate to the directory where you downloaded the `environment.yml` file.
 4. Run the following command to create a new conda environment using the specifications in the `environment.yml` file:
 ```shell
-   conda env create -f environment.yml
-
-After the environment is created, you can proceed with the next steps:
-
-4. Activate the newly created environment using the following command:
-
-```shell
-conda activate <environment_name>
+conda env create -f environment.yml

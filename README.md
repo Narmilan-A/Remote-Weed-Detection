@@ -32,9 +32,23 @@ git clone https://github.com/yourusername/weed-detection-ai.git
 cd weed-detection-ai
 pip install -r requirements.txt
 
-### Usage
+## Usage
 
-### Datasets
+## Datasets
+
+## Model Details
+
+## Results
+
+## Contributing
+
+## License
+
+## Contact
+
+
+
+
 
 
 

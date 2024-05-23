@@ -24,8 +24,6 @@ This project aims to assist farmers by providing an efficient way to detect weed
 
 ## Model Details
 
-## Results
-
 ## License
 
 ## Contact

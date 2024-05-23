@@ -7,7 +7,6 @@ Understanding the opportunities and limitations of multi-resolution and multi-mo
 - [Installation](#installation)
 - [Datasets](#datasets)
 - [Model Details](#model-details)
-- [Results](#results)
 - [License](#license)
 - [Contact](#contact)
 

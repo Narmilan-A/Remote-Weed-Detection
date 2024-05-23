@@ -3,6 +3,7 @@ Understanding the opportunities and limitations of multi-resolution and multi-mo
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Repository Structure and Description](#Repository Structure and Description)
 - [Installation](#installation)
 - [Datasets](#datasets)
 - [Model Details](#model-details)
@@ -12,6 +13,8 @@ Understanding the opportunities and limitations of multi-resolution and multi-mo
 
 ## Introduction
 This project aims to assist farmers by providing an efficient way to detect weeds...
+
+## Repository Structure and Description
 
 ## Installation
 ### Prerequisites

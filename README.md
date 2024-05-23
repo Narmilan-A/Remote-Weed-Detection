@@ -27,10 +27,6 @@ This project aims to assist farmers by providing an efficient way to detect weed
 - TensorFlow, OpenCV
 
 ### Steps
-```bash
-git clone https://github.com/yourusername/weed-detection-ai.git
-cd weed-detection-ai
-pip install -r requirements.txt
 
 ## Usage
 

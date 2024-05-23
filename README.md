@@ -44,6 +44,9 @@ Before using the resources and scripts in this repository, ensure that you have 
 2. Open a terminal or command prompt.
 3. Navigate to the directory where you downloaded the `environment.yml` file.
 4. Run the following command to create a new conda environment using the specifications in the `environment.yml` file:
+```shell
+   conda env create -f environment.yml
+
 5. Once the environment is created, activate it using the following command: conda activate <environment_name>
 
 After completing these steps, you'll have the required dependencies installed in your conda environment, and you'll be ready to use the resources provided in this repository. If you encounter any issues during the setup process, feel free to reach out to us for assistance. Orelse for more information about managing conda environments, refer to the [official documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).

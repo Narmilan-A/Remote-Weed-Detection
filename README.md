@@ -3,23 +3,15 @@ Understanding the opportunities and limitations of multi-resolution and multi-mo
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Features](#features)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Datasets](#datasets)
 - [Model Details](#model-details)
 - [Results](#results)
-- [Contributing](#contributing)
 - [License](#license)
 - [Contact](#contact)
 
 ## Introduction
 This project aims to assist farmers by providing an efficient way to detect weeds...
-
-## Features
-- High accuracy in identifying weeds.
-- Real-time detection capabilities.
-- Easy to integrate with existing agricultural tools.
 
 ## Installation
 ### Prerequisites
@@ -28,15 +20,11 @@ This project aims to assist farmers by providing an efficient way to detect weed
 
 ### Steps
 
-## Usage
-
 ## Datasets
 
 ## Model Details
 
 ## Results
-
-## Contributing
 
 ## License
 

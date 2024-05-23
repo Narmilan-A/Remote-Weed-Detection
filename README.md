@@ -40,8 +40,25 @@ This structure ensures that all relevant resources, data, and documentation are 
 
 ## Installation
 ### Prerequisites
-- Python 3.8+
-- TensorFlow, OpenCV
+
+Before using the resources and scripts in this repository, ensure that you have the necessary dependencies installed. You can use the provided `.yml` file to set up a conda environment with the required packages. Please follow the steps below to create the environment:
+1. Download the provided `environment.yml` file from this repository.
+2. Open a terminal or command prompt.
+3. Navigate to the directory where you downloaded the `environment.yml` file.
+4. Run the following command to create a new conda environment using the specifications in the `environment.yml` file:
+
+5. Once the environment is created, activate it using the following command:
+conda activate <environment_name>
+
+Replace `<environment_name>` with the name you provided in the `environment.yml` file.
+
+After completing these steps, you'll have the required dependencies installed in your conda environment, and you'll be ready to use the resources provided in this repository. If you encounter any issues during the setup process, feel free to reach out to us for assistance.
+
+## Additional Notes
+
+- For more information about managing conda environments, refer to the [official documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+
+
 
 ### Steps
 

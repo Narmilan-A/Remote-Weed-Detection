@@ -1,4 +1,5 @@
 ## Weed managers guide to Remote Detection
+Understanding the opportunities and limitations of multi-resolution and multi-modal technologies for remote detection of weeds in heterogenous landscapes (2021 - 2025)
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -30,5 +31,10 @@ This project aims to assist farmers by providing an efficient way to detect weed
 git clone https://github.com/yourusername/weed-detection-ai.git
 cd weed-detection-ai
 pip install -r requirements.txt
+
+### Usage
+
+### Datasets
+
 
 

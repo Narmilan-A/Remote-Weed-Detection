@@ -54,3 +54,6 @@ conda activate <environment_name>
 After completing these steps, you'll have the required dependencies installed in your conda environment, and you'll be ready to use the resources provided in this repository. If you encounter any issues during the setup process, feel free to reach out to us for assistance.
 
 **For more information**: Refer to the [official documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+
+## Datasets
+The Target Weed Detection Repository is a comprehensive resource for researchers and practitioners interested in leveraging UAV technology for precise weed detection. Featuring data on specific target weed species like Hawkweed and BitouBush, the repository delineates various site locations where detection efforts have been conducted, ranging from 15Mile and Longplain to New Zealand and Birdies beach. Utilizing advanced UAV platforms such as the M600 and specialized sensor models like the Micasense Altum and AFX, the repository showcases a variety of setups tailored for multispectral and hyperspectral analysis. With insights into sensor types, site specifics, and UAV configurations, this repository serves as a valuable hub for advancing weed management strategies through cutting-edge aerial detection methodologies.

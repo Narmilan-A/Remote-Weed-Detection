@@ -17,7 +17,7 @@ This repository hosts the resources and findings from the project "Weed Managers
 The repository is organized into two main folders corresponding to the model weed systems studied: `Bitou_bush` and `Hawkweed`. Each of these folders contains several sub-folders, each dedicated to different aspects of the project. Here's an overview of the structure and contents of each folder: 
 
 #### Main Folders
-- `Bitou_bush`
+- `Bitou bush`
 - `Hawkweed`
 
 Each of these main folders is accompanied by a `README.md` file that provides further details and instructions specific to the contents and usage of the files within. Each main folder includes the following sub-folders:

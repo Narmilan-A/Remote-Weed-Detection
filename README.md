@@ -1,5 +1,5 @@
 ## Weed managers guide to Remote Detection
-Understanding the opportunities and limitations of multi-resolution and multi-modal technologies for remote detection of weeds in heterogenous landscapes (2021 - 2025)
+Understanding the opportunities and limitations of multi-resolution and multi-modal technologies for remote detection of weeds in heterogenous landscapes
 
 ## Table of Contents
 - [Introduction](#introduction)

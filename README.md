@@ -1,5 +1,5 @@
 ## Weed managers guide to Remote Detection
-### File description
+### Repository structure and description
 ### Hardware and Software requirments
 ### Python libraries
 

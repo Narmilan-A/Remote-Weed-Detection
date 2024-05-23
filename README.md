@@ -3,7 +3,7 @@ Understanding the opportunities and limitations of multi-resolution and multi-mo
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Repository Structure and Description](#Repository Structure and Description)
+- [Repository Structure and Description](#repository-structure-and-description)
 - [Installation](#installation)
 - [Datasets](#datasets)
 - [Model Details](#model-details)

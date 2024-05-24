@@ -1,6 +1,6 @@
 ### Table of Contents
 - [Script description](#Script-description)
-- [Model Details](#model-details)
+- [Model details](#model-details)
 - [Results](#results)
 
 ### Script description

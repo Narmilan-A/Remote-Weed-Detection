@@ -1,5 +1,5 @@
 ### Table of Contents
-- [Script description](#Script description)
+- [Script description](#Script-description)
 - [Model Details](#model-details)
 - [Results](#results)
 

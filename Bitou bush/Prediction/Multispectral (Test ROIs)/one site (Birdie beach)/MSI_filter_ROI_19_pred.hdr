@@ -1,0 +1,15 @@
+ENVI
+description = {
+/home/n10837647/hpc/csu/23052024_all_model/bb/bb_last_unet_spectral_model&outcomes_tile_[128]_o.lap_[0.3]_t.size_[0.25]_b.size_[25]_epochs_[75]_vis_[True]_num_vi_[5]_gau_[False]_mean_[False]_con_[False]_del_band[false]_l.rate_[0.001]/unet_prediction_map/MSI_filter_ROI_19_pred.dat}
+samples = 1024
+lines   = 1024
+bands   = 1
+header offset = 0
+file type = ENVI Standard
+data type = 1
+interleave = bsq
+byte order = 0
+map info = {Geographic Lat/Lon, 1, 1, 151.602974659, -33.207140431, 1.53025390609018e-07, 1.47638671878225e-07,WGS-84}
+coordinate system string = {GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]}
+band names = {
+Band 1}

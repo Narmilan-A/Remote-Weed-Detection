@@ -1,28 +1,9 @@
 ## Table of Contents
-- [Introduction](#introduction)
-- [Installation](#installation)
-- [Datasets](#datasets)
+- [Script description](#Script description)
 - [Model Details](#model-details)
 - [Results](#results)
-- [License](#license)
-- [Contact](#contact)
 
-## Introduction
-This project aims to assist farmers by providing an efficient way to detect weeds...
+## Script description
+## Model-details
+### Results
 
-## Installation
-### Prerequisites
-- Python 3.8+
-- TensorFlow, OpenCV
-
-### Steps
-
-## Datasets
-
-## Model Details
-
-## Results
-
-## License
-
-## Contact

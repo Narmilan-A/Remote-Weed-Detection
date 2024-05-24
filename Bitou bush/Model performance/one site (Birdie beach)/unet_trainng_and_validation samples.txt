@@ -1,0 +1,10 @@
+image_patches.shape: (1600, 128, 128, 10)
+mask_patches.shape: (1600, 128, 128)
+
+X_train shape: (1200, 128, 128, 10)
+X_test shape: (400, 128, 128, 10)
+y_train shape: (1200, 128, 128)
+y_test shape: (400, 128, 128)
+Image height: 128
+Image width: 128
+Image channels: 10

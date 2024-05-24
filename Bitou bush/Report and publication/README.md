@@ -1,8 +1,12 @@
-## Publication Details
+## Research and publication details
 
-**Title:** Bitou bush detection and mapping using UAV-based multispectral and hyperspectral imagery and artificial intelligence:Highlights
+**Title:** Bitou bush detection and mapping using UAV-based multispectral and hyperspectral imagery and artificial intelligence
 
 **Authors:** Narmilan Amarasingam, Jane E Kelly, Juan Sandino, Mark Hamilton, Felipe Gonzalez, Remy L Dehaan, Lihong Zheng, Hillary Cherry
+
+**Journal:** Remote Sensing Applications: Society and Environment
+
+**Volume:** 34
 
 **Publication Date:** 4 April 2024
 

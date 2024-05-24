@@ -18,4 +18,5 @@
 - Mapping bitou bush with classical machine learning and deep learning models.
 - The U-Net deep learning model outperforms classical machine learning models.
 - Integration of semi-automatic labeling techniques for time-saving benefits.
+![unet_pipeline3](https://github.com/Narmilan-A/Remote-Weed-detection/assets/140802455/69b3c72f-40db-4069-a720-bb1a2665aadf)
 

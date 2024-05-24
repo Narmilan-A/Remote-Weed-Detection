@@ -1,0 +1,24 @@
+Training Time: 490.6579804420471 seconds
+Confusion Matrix:
+[[ 201863   36505    4990]
+ [  21933  615564   22942]
+ [   3809   35719 1074259]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          BB       0.89      0.83      0.86    243358
+          OV       0.89      0.93      0.91    660439
+          NV       0.97      0.96      0.97   1113787
+
+    accuracy                           0.94   2017584
+   macro avg       0.92      0.91      0.91   2017584
+weighted avg       0.94      0.94      0.94   2017584
+
+
+IoU Results:
+IoU for class 1: nan
+IoU for class 2: 0.75
+IoU for class 3: 0.84
+IoU for class 4: 0.94
+Average IoU: nan

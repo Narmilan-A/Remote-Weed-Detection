@@ -1,0 +1,2 @@
+image_patches.shape: (301, 128, 128, 10)
+mask_patches.shape: (301, 128, 128)

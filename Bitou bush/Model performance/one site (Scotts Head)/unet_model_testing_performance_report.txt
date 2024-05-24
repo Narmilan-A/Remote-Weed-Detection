@@ -1,0 +1,24 @@
+Confusion Matrix:
+[[ 58732   1618   2921]
+ [   952 486653   4845]
+ [     8    115 826708]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+          BB       0.98      0.93      0.96     63271
+          OV       1.00      0.99      0.99    492450
+          NV       0.99      1.00      1.00    826831
+
+    accuracy                           0.99   1382552
+   macro avg       0.99      0.97      0.98   1382552
+weighted avg       0.99      0.99      0.99   1382552
+
+
+IoU Results:
+IoU for class 1: nan
+IoU for class 2: 0.91
+IoU for class 3: 0.98
+IoU for class 4: 0.99
+IoU for class 5: nan
+Average IoU: nan

@@ -1,0 +1,66 @@
+--- Classification Reports ---
+
+Classification report of RF:
+              precision    recall  f1-score   support
+
+  Hw Flowers       1.00      1.00      1.00      1619
+  Background       1.00      1.00      1.00      1619
+
+    accuracy                           1.00      3238
+   macro avg       1.00      1.00      1.00      3238
+weighted avg       1.00      1.00      1.00      3238
+
+
+Classification report of SVM:
+              precision    recall  f1-score   support
+
+  Hw Flowers       1.00      0.98      0.99      1619
+  Background       0.98      1.00      0.99      1619
+
+    accuracy                           0.99      3238
+   macro avg       0.99      0.99      0.99      3238
+weighted avg       0.99      0.99      0.99      3238
+
+
+Classification report of XGB:
+              precision    recall  f1-score   support
+
+  Hw Flowers       1.00      1.00      1.00      1619
+  Background       1.00      1.00      1.00      1619
+
+    accuracy                           1.00      3238
+   macro avg       1.00      1.00      1.00      3238
+weighted avg       1.00      1.00      1.00      3238
+
+
+Classification report of KNN:
+              precision    recall  f1-score   support
+
+  Hw Flowers       1.00      1.00      1.00      1619
+  Background       1.00      1.00      1.00      1619
+
+    accuracy                           1.00      3238
+   macro avg       1.00      1.00      1.00      3238
+weighted avg       1.00      1.00      1.00      3238
+
+
+
+
+--- Confusion Matrices ---
+
+Confusion matrix of RF:
+[[1613    6]
+ [   4 1615]]
+
+Confusion matrix of SVM:
+[[1590   29]
+ [   1 1618]]
+
+Confusion matrix of XGB:
+[[1611    8]
+ [   4 1615]]
+
+Confusion matrix of KNN:
+[[1617    2]
+ [   3 1616]]
+

@@ -1,3 +1,6 @@
+## Classical machine learning: Proceesing pipeline
+![ml](https://github.com/Narmilan-A/Remote-Weed-detection/assets/140802455/bfe17d4c-94d6-47bb-bb3e-16e1fca6f3bb)
+
 ### Brief explanation of hsi_classical_ml_training.py
 | Main Steps                | Brief Explanation                                                                                                                                                                      |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

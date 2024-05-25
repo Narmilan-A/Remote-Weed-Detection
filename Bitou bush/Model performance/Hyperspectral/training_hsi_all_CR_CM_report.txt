@@ -1,0 +1,74 @@
+--- Classification Reports ---
+
+Classification report of RF:
+                   precision    recall  f1-score   support
+
+Target_Vegetation       0.98      0.70      0.82     63047
+ Other_Vegetation       0.75      0.99      0.85     62960
+   Non_vegetation       1.00      0.97      0.98     62946
+
+         accuracy                           0.88    188953
+        macro avg       0.91      0.88      0.88    188953
+     weighted avg       0.91      0.88      0.88    188953
+
+
+Classification report of SVM:
+                   precision    recall  f1-score   support
+
+Target_Vegetation       0.97      0.88      0.93     63047
+ Other_Vegetation       0.89      0.97      0.93     62960
+   Non_vegetation       0.99      0.99      0.99     62946
+
+         accuracy                           0.95    188953
+        macro avg       0.95      0.95      0.95    188953
+     weighted avg       0.95      0.95      0.95    188953
+
+
+Classification report of XGB:
+                   precision    recall  f1-score   support
+
+Target_Vegetation       1.00      0.98      0.99     63047
+ Other_Vegetation       0.98      1.00      0.99     62960
+   Non_vegetation       1.00      1.00      1.00     62946
+
+         accuracy                           0.99    188953
+        macro avg       0.99      0.99      0.99    188953
+     weighted avg       0.99      0.99      0.99    188953
+
+
+Classification report of KNN:
+                   precision    recall  f1-score   support
+
+Target_Vegetation       1.00      1.00      1.00     63047
+ Other_Vegetation       1.00      1.00      1.00     62960
+   Non_vegetation       1.00      1.00      1.00     62946
+
+         accuracy                           1.00    188953
+        macro avg       1.00      1.00      1.00    188953
+     weighted avg       1.00      1.00      1.00    188953
+
+
+
+
+--- Confusion Matrices ---
+
+Confusion matrix of RF:
+[[43987 18774   286]
+ [  890 62070     0]
+ [    0  1930 61016]]
+
+Confusion matrix of SVM:
+[[55725  7031   291]
+ [ 1690 60939   331]
+ [    0   516 62430]]
+
+Confusion matrix of XGB:
+[[61699  1334    14]
+ [   78 62843    39]
+ [    5   171 62770]]
+
+Confusion matrix of KNN:
+[[63017    30     0]
+ [    6 62954     0]
+ [    0   123 62823]]
+

@@ -42,14 +42,15 @@ You can get started quickly by following one of the provided methods to install 
 
 ### Method 1: Using Conda (recommended)
 
-1. Create a Conda environment using the provided environment.yml file:
-    ```
-    conda env create -f environment_local.yml
-    ```
-OR
-    ```
-    conda env create -f environment_hpc.yml
-    ```
+1. Create a Conda environment using the provided environment.yml file for your specific environment:
+    - For local computing:
+        ```
+        conda env create -f cond_packages/local_environment.yml
+        ```
+    - For HPC:
+        ```
+        conda env create -f cond_packages/hpc_environment.yml
+        ```
 
 2. Activate the newly created environment:
     ```

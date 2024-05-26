@@ -1,20 +1,38 @@
 # Accuracy Assessment
 
-The models were evaluated and compared based on their performance metrics and ability to handle different classes effectively in a classification scenario. Overall model accuracy, precision, recall, F1-score, and Intersection over Union (IoU) were used to evaluate the model’s performance for the classification of pandanus. Evaluation descriptors, including true positive (TP), false positive (FP), true negative (TN), and false negative (FN), were used to determine the overall accuracy (Equation (1)), precision (Equation (2)), recall (Equation (3)), F1-score (Equation (4)), and IoU (Equation (5)).
+## Overview
+This repository contains code for evaluating and comparing models based on their performance metrics in a classification scenario, particularly focusing on the classification of pandanus. The evaluation metrics used include accuracy, precision, recall, F1-score, and Intersection over Union (IoU).
 
-# Accuracy Assessment
+## Evaluation Metrics
+The models were assessed using the following metrics:
 
-Overall Accuracy: \( \text{Overall Accuracy} = \frac{TP + TN}{TP + TN + FP + FN} \) (1)
+- **Accuracy**: Measures the overall correctness of the classification.
+- **Precision**: Measures the ratio of correctly predicted positive observations to the total predicted positives.
+- **Recall**: Measures the ratio of correctly predicted positive observations to all actual positives.
+- **F1-score**: The harmonic mean of precision and recall, providing a balance between the two metrics.
+- **Intersection over Union (IoU)**: Measures the overlap between predicted and ground truth bounding boxes.
 
-Precision: \( \text{Precision} = \frac{TP}{TP + FP} \) (2)
+## Evaluation Descriptors
+The evaluation descriptors used in determining the performance metrics are as follows:
 
-Recall: \( \text{Recall} = \frac{TP}{TP + FN} \) (3)
+- **True Positive (TP)**: Instances where the model correctly predicts positive cases.
+- **False Positive (FP)**: Instances where the model incorrectly predicts positive cases.
+- **True Negative (TN)**: Instances where the model correctly predicts negative cases.
+- **False Negative (FN)**: Instances where the model incorrectly predicts negative cases.
 
-F1-score: \( \text{F1-score} = \frac{2TP}{FP + 2TP + FN} \) (4)
+These descriptors are utilized in the calculation of overall accuracy, precision, recall, F1-score, and IoU using the following equations:
 
-Intersection over Union (IoU): \( \text{IoU} = \frac{\text{Area of intersection}}{\text{Area of Union}} \) (5)
+1. **Overall Accuracy**:
+\[ \text{Accuracy} = \frac{TP + TN}{TP + FP + TN + FN} \]
 
-These performance metrics provide insights into the model's ability to correctly classify pandanus instances and distinguish them from other classes, thus guiding the selection of the most suitable model for the task.
+2. **Precision**:
+\[ \text{Precision} = \frac{TP}{TP + FP} \]
 
+3. **Recall**:
+\[ \text{Recall} = \frac{TP}{TP + FN} \]
 
-These performance metrics provide insights into the model's ability to correctly classify pandanus instances and distinguish them from other classes, thus guiding the selection of the most suitable model for the task.
+4. **F1-score**:
+\[ \text{F1-score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} \]
+
+5. **Intersection over Union (IoU)**:
+\[ \text{IoU} = \frac{\text{Area of Intersection}}{\text{Area of Union}} \]

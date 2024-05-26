@@ -64,7 +64,7 @@ Under the "conda_packages" folder, you will find two .yml files tailored for dif
 
 These .yml files serve as convenient templates for setting up Conda environments specific to different computing environments, enabling users to easily replicate the project environment according to their needs.
 
-**For more information**: Refer to the [official documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+**For more information**: Click the folder `conda_packages` or refer to the [official documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 
 ## Datasets
 This repository is a comprehensive resource for researchers and practitioners interested in leveraging UAV technology for precise weed detection. Featuring data on specific target weed species like Hawkweed and BitouBush, the repository delineates various site locations where detection efforts have been conducted. Utilising advanced UAV platforms such as the DJI M300 and DJI M600 and specialised sensor models such as the Micasense Altum (Multispectral camera) and Specim AFX VNIR (Hyperspectral camera), the repository showcases a variety of setups tailored for multispectral and hyperspectral analysis.

@@ -6,7 +6,7 @@ This repository contains code for evaluating and comparing models based on their
 ## Evaluation Metrics
 The models were assessed using the following metrics:
 
-- **Accuracy**: Measures the overall correctness of the classification.
+- **Overall Accuracy**: Measures the overall correctness of the classification.
 - **Precision**: Measures the ratio of correctly predicted positive observations to the total predicted positives.
 - **Recall**: Measures the ratio of correctly predicted positive observations to all actual positives.
 - **F1-score**: The harmonic mean of precision and recall, providing a balance between the two metrics.

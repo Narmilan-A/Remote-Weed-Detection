@@ -22,21 +22,17 @@ The evaluation descriptors used in determining the performance metrics are as fo
 
 These descriptors are utilized in the calculation of overall accuracy, precision, recall, F1-score, and IoU using the following equations:
 
-Overall Accuracy: `\[ \text{Accuracy} = \frac{TP + TN}{TP + FP + TN + FN} \]`
-
-
-
 1. **Overall Accuracy**:
-\[ \text{Accuracy} = \frac{TP + TN}{TP + FP + TN + FN} \]
+\[ \text{Accuracy} = (TP + TN) / (TP + FP + TN + FN)
 
 2. **Precision**:
-\[ \text{Precision} = \frac{TP}{TP + FP} \]
+\[ \text{Precision} = (TP) / (TP + FP)
 
 3. **Recall**:
-\[ \text{Recall} = \frac{TP}{TP + FN} \]
+\[ \text{Recall} = (TP) / (TP + FN)
 
 4. **F1-score**:
-\[ \text{F1-score} = 2 \times \frac{\text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}} \]
+\[ \text{F1-score} = 2 * ((Precision) * (Recall)) / ((Precision) + (Recall))
 
 5. **Intersection over Union (IoU)**:
-\[ \text{IoU} = \frac{\text{Area of Intersection}}{\text{Area of Union}} \]
+\[ \text{IoU} = (Area of Intersection) / (Area of Union)

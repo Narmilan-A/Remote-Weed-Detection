@@ -22,6 +22,10 @@ The evaluation descriptors used in determining the performance metrics are as fo
 
 These descriptors are utilized in the calculation of overall accuracy, precision, recall, F1-score, and IoU using the following equations:
 
+Overall Accuracy: `\[ \text{Accuracy} = \frac{TP + TN}{TP + FP + TN + FN} \]`
+
+
+
 1. **Overall Accuracy**:
 \[ \text{Accuracy} = \frac{TP + TN}{TP + FP + TN + FN} \]
 

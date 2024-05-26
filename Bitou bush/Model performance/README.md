@@ -28,6 +28,6 @@ These descriptors are utilized in the calculation of overall accuracy, precision
 
 3. **Recall** = (TP) / (TP + FN)
 
-4. **F1-score** = 2 * ((Precision) * (Recall)) / ((Precision) + (Recall))
+4. **F1-score** = 2 * (Precision * Recall) / (Precision + Recall)
 
-5. **Intersection over Union (IoU)** = (Area of Intersection) / (Area of Union)
+5. **Intersection over Union (IoU)** = Area of Intersection / Area of Union

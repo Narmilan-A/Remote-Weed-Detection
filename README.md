@@ -15,10 +15,13 @@ Understanding the opportunities and limitations of multi-resolution and multi-mo
 This repository hosts the resources and findings from the project "Weed Managers Guide to Remote Detection: Understanding Opportunities and Limitations of Multi-Resolution and Multi-Modal Technologies for Remote Detection of Weeds in Heterogeneous Landscapes." Over the past three years, our collaborative research has focused on developing efficient, accessible, and cost-effective remote detection methods to improve weed management strategies. Our project employed advanced technologies, including high-resolution RGB, multispectral, and hyperspectral imaging, across various airborne platforms like drones and satellites. By leveraging artificial intelligence, including both classical machine learning and deep learning techniques, we successfully detected and mapped weed infestations in diverse conservation landscapes. Our study specifically targeted model weed systems such as hawkweed and bitou bush to assess the capabilities and limitations of these technologies. By sharing our research outcomes and practical insights, we aim to contribute to the development of improved and more feasible approaches for remote weed detection, ultimately supporting more effective weed management practices.
 
 ## Repository Structure and Description
-The repository is organised into two main folders corresponding to the model weed detection studied: `Bitou bush` and `Hawkweed`. Each of these folders contains several sub-folders, each dedicated to different aspects of the project. Here's an overview of the structure and contents of each folder: 
+The repository is organized into three main folders: `Bitou bush`, `Hawkweed`, and `conda_packages`.
+The two main folders (Bitou_bush and Hawkweed) correspond to the model weed detection studied. Each of these folders contains several sub-folders, each dedicated to different aspects of the project. Here's an overview of the structure and contents of each folder:
+
 #### Main Folders
 - `Bitou bush`
 - `Hawkweed`
+- `conda_packages`: Contains YAML configuration files for creating Conda environments tailored for different computing environments.
 
 Each of these main folders is accompanied by a `README.md` file that provides further details and instructions specific to the contents and usage of the files within. Each main folder includes the following sub-folders:
 
@@ -52,6 +55,14 @@ conda env create -f environment.yml
 conda activate <environment_name>
 ```
 After completing these steps, you'll have the required dependencies installed in your conda environment, and you'll be ready to use the resources provided in this repository. If you encounter any issues during the setup process, feel free to reach out to us for assistance.
+
+Under the "conda_packages" folder, you will find two .yml files tailored for different computing environments:
+
+- **environment_local.yml**: This YAML file contains the configuration for creating a Conda environment suitable for local computing setups. It includes the necessary packages and dependencies required to run the project on a local machine.
+
+- **environment_hpc.yml**: This YAML file contains the configuration for creating a Conda environment optimized for running the project on a High-Performance Computing (HPC) cluster. It includes the required packages and dependencies tailored for HPC environments, ensuring efficient execution and utilization of resources.
+
+These .yml files serve as convenient templates for setting up Conda environments specific to different computing environments, enabling users to easily replicate the project environment according to their needs.
 
 **For more information**: Refer to the [official documentation](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
 

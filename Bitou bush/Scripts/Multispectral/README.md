@@ -79,3 +79,20 @@ To enhance the performance of the model based on the provided code, the followin
 10. **Control Parameters**: Fine-tuning control parameters such as applying vegetation indices, Gaussian blur, mean filter, convolution, band deletion, and filtering based on image dimensions can optimize the preprocessing pipeline and improve model performance.
 
 By systematically exploring and implementing these strategies, the model's performance can be significantly enhanced, leading to better accuracy and robustness in weed detection tasks.
+
+### Mitigating Memory Errors in Training and Prediction
+Memory errors during both training and prediction can hinder the performance and efficiency of machine learning models. This README provides recommendations for mitigating memory errors in training and prediction processes.
+#### Training
+To address memory errors during training, consider the following:
+- **Reduce Number of Channels**: Eliminate some Variable Importance (VI) channels to reduce memory usage.
+- **Decrease Patch Size**: Reduce patch size from 256 to 128 or smaller, while also decreasing the overlap.
+- **Trim Down Model Layers**: Reduce the number of layers in the model architecture, transitioning from higher numbers (e.g., 1024) to lower ones (e.g., 64, 256, or 512).
+- **Adjust Batch Size and Learning Rate**: Modify batch size and learning rate to optimize memory usage during training.
+- **Utilize High-Performance Computing (HPC)**: Consider using powerful GPU setups like A100, QUT HPC, or Google Colab Pro Plus for successful training with large multispectral data and deep learning models.
+
+#### Prediction
+For memory-efficient prediction, follow these recommendations:
+- **Employ Training Techniques**: Apply the same training techniques mentioned above during prediction to optimize memory usage.
+- **Reduce Number of Regions of Interest (ROIs)**: Use a smaller number of ROIs during prediction to reduce memory overhead.
+- **Work with Reduced Data Area**: Utilize smaller subsets of data or reduced areas of orthomosaic data for prediction tasks.
+- **Merge Data Effectively**: Merge smaller subsets of data using tools like Arc GIS Pro to handle memory constraints.

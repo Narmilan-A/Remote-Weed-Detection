@@ -1,20 +1,20 @@
-# Machine Learning and Deep Learning Environment Configurations
+## Machine Learning and Deep Learning Environment Configurations
 
 This repository contains the configurations for running Classical Machine Learning (ML) and Deep Learning (DL) models on different hardware setups. Below are the details of the hardware environments used for running the respective models.
 
-## Classical ML (XGB / RF / SVM / KNN)
+### Classical ML (XGB / RF / SVM / KNN)
 
-### High performance computing (HPC) (Optinal)
+#### High performance computing (HPC) (Optinal)
 - **RAM**: 128GB
 - **CPU Cores (ncpus)**: 16
 
-### Local computer
+#### Local computer
 - **RAM**: 16GB
 - **Processor**: 11th Gen Intel(R) Core(TM) i7-1185G7 @ 3.00GHz, 1.80 GHz
 
-## Deep Learning (UNet)
+### Deep Learning (UNet)
 
-### HPC
+#### HPC
 - **GPU**: A100 NVIDIA
 - **GPU Memory**: 40GB
 - **Total GPUs**: 48
@@ -22,7 +22,7 @@ This repository contains the configurations for running Classical Machine Learni
 - **RAM**: 32GB
 - **CPU Cores (ncpus)**: 4
 
-## Conda Environment Packages
+### Conda Environment Packages
 
 The `conda_environment_package` folder contains two `.yml` files for setting up the necessary conda environments:
 
@@ -40,7 +40,7 @@ This Conda environment file specifies numerous packages that are commonly used i
 
 You can get started quickly by following one of the provided methods to install the required packages after creating a Conda environment.
 
-### Method 1: Using Conda (recommended)
+#### Method 1: Using Conda (recommended)
 
 1. Create a Conda environment using the provided environment.yml file for your specific environment:
     - For local computing:
@@ -57,7 +57,7 @@ You can get started quickly by following one of the provided methods to install 
     conda activate my_environment
     ```
 
-### Method 2:  Manual Installation
+#### Method 2:  Manual Installation
 
 1. Activate your Conda environment:
     ```
@@ -84,12 +84,12 @@ You can get started quickly by following one of the provided methods to install 
     pip list
     ```
 
-## Additional Information
+### Additional Information
 
 - If you encounter any issues during installation or while running the project, please refer to the documentation or the project's issue tracker for assistance.
 - For more detailed instructions or troubleshooting, please visit the project's GitHub repository or contact the maintainers directly.
 
-## Useful Links
+### Useful Links
 
 - [TensorFlow](https://www.tensorflow.org/)
 - [Keras](https://keras.io/)

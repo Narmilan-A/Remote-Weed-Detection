@@ -15,29 +15,31 @@ Understanding the opportunities and limitations of multi-resolution and multi-mo
 This repository hosts the resources and findings from the project "Weed Managers Guide to Remote Detection: Understanding Opportunities and Limitations of Multi-Resolution and Multi-Modal Technologies for Remote Detection of Weeds in Heterogeneous Landscapes." Over the past three years, our collaborative research has focused on developing efficient, accessible, and cost-effective remote detection methods to improve weed management strategies. Our project employed advanced technologies, including high-resolution RGB, multispectral, and hyperspectral imaging, across various airborne platforms like drones and satellites. By leveraging artificial intelligence, including both classical machine learning and deep learning techniques, we successfully detected and mapped weed infestations in diverse conservation landscapes. Our study specifically targeted model weed systems such as hawkweed and bitou bush to assess the capabilities and limitations of these technologies. By sharing our research outcomes and practical insights, we aim to contribute to the development of improved and more feasible approaches for remote weed detection, ultimately supporting more effective weed management practices.
 
 ## Repository Structure and Description
-The repository is organized into three main folders: `Bitou bush`, `Hawkweed`, and `conda_packages`.
+The repository is organized into three main folders: `bitou_bush`, `hawkweed`, and `conda_packages`.
 The two main folders (Bitou_bush and Hawkweed) correspond to the model weed detection studied. Each of these folders contains several sub-folders, each dedicated to different aspects of the project. Here's an overview of the structure and contents of each folder:
 
 #### Main Folders
-- `Bitou bush`
-- `Hawkweed`
+- `bitou_bush`
+- `hawkweed`
 - `conda_packages`: Contains YAML configuration files for creating Conda environments tailored for different computing environments.
 
 Each of these main folders is accompanied by a `README.md` file that provides further details and instructions specific to the contents and usage of the files within. Each main folder includes the following sub-folders:
 
-- **Ground truth labelling**: Contains the ground truth data and associated labeling files used for training and testing the detection models.
+- **ground_truth_labelling**: Contains the ground truth data and associated labeling files used for training and testing the detection models.
 
-- **Multispectral_dataset**: Contains the multispectral imaging datasets utilised in the project.
+- **ultispectral_dataset**: Contains the multispectral imaging datasets utilised in the project.
 
-- **Hyperspectral_dataset**: Holds the hyperspectral imaging datasets used in the project.
+- **hyperspectral_dataset**: Holds the hyperspectral imaging datasets used in the project.
 
-- **Model**: Includes the models used for training, validating, and testing weed detection algorithms.
+- **models**: Includes the models used for training, validating, and testing weed detection algorithms.
 
-- **Scripts**: Holds various scripts used throughout the project for data processing, model training, and evaluation.
+- **model_performance**: Includes the accuracy assesments for model.
 
-- **Prediction**: Stores the prediction outputs from the trained models.
+- **scripts**: Holds various scripts used throughout the project for data processing, model training, and evaluation.
 
-- **Report and Publication**: Includes reports, publications, and documentation generated from the project findings.
+- **prediction**: Stores the prediction outputs from the trained models.
+
+- **report_and_publication**: Includes reports, publications, and documentation generated from the project findings.
 
 This structure ensures that all relevant resources, data, and documentation are organised systematically, making it easy for users to navigate and utilize the repository effectively.
 

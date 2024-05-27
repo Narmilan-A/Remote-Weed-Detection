@@ -25,7 +25,7 @@
 | Step | Description |
 |------|-------------|
 | 1.   | **Import Libraries** Import necessary Python libraries including NumPy, Matplotlib, GDAL, Scikit-learn, Joblib, Seaborn, and others for data processing, visualization, and machine learning tasks. |
-| 2.   | **Define Vegetation Indices Function** Define a function (`calculate_veg_indices`) to calculate various vegetation indices such as NDVI, GNDVI, NDRE, GCI, MSAVI, and EXG using input satellite imagery. |
+| 2.   | **Define Vegetation Indices Function** Define a function (`calculate_veg_indices`) to calculate various vegetation indices such as NDVI, GNDVI, NDRE, GCI, MSAVI, and EXG using input imagery. |
 | 3.   | **Load and Preprocess Data** Load input images and corresponding masks, preprocess the images by equalizing histograms, calculate vegetation indices using the defined function, and filter unlabelled data. |
 | 4.   | **Resampling Data** Separate the dataset into classes, resample to balance the classes by downsampling/upsampling the minority/majority classes, and combine them into a single dataset. |
 | 5.   | **Predict Using Best Models** Load the saved best models (RF, SVM, XGB, KNN) and make predictions on the training data. |

@@ -4,7 +4,7 @@ This repository contains the configurations for running Classical Machine Learni
 
 ### Classical ML (XGB / RF / SVM / KNN)
 
-#### High performance computing (HPC) (Optinal)
+#### High performance computing (HPC) (Optional)
 - **RAM**: 128GB
 - **CPU Cores (ncpus)**: 16
 

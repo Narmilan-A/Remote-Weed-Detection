@@ -41,7 +41,7 @@ Each of these main folders is accompanied by a `README.md` file that provides fu
 
 - **report_and_publication**: Includes reports, publications, and documentation generated from the project findings.
 
-This structure ensures that all relevant resources, data, and documentation are organised systematically, making it easy for users to navigate and utilize the repository effectively.
+This structure ensures that all relevant resources, data, and documentation are organised systematically, making it easy for users to navigate and utilise the repository effectively.
 
 ## Installation
 Before using the resources and scripts in this repository, ensure that you have the necessary dependencies installed. You can use the provided `.yml` file to set up a conda environment with the required packages. Please follow the steps below to create the environment:

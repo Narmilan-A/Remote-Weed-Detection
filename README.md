@@ -23,7 +23,7 @@ The two main folders (Bitou_bush and Hawkweed) correspond to the model weed dete
 - `hawkweed`
 - `conda_packages`: Contains YAML configuration files for creating Conda environments tailored for different computing environments.
 
-Each of these main folders is accompanied by a `README.md` file that provides further details and instructions specific to the contents and usage of the files within. Each main folder includes the following sub-folders:
+Each of these main folders is accompanied by a `README.md` file that provides further details and instructions specific to the contents and usage of the files within. The main folders such as bitou_bush and hawkweed include the following sub-folders:
 
 - **ground_truth_labelling**: Contains the ground truth data and associated labeling files used for training and testing the detection models.
 

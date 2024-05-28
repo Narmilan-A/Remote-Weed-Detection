@@ -6,20 +6,20 @@
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Import Libraries          | Import necessary libraries: `numpy`, `matplotlib.pyplot`, `gdal` from `osgeo`, `train_test_split`, `RandomForestClassifier`, `confusion_matrix`, `classification_report`, `seaborn`, `SVC`, `xgb`, `KNeighborsClassifier`, `joblib`, `ListedColormap`, `exposure`, `resample`, `imsave`, `PCA`, `StandardScaler`, `convolve`. |
 | Read Bands File           | Read the selected bands information from a text file and convert it into a list.                                                                                                       |
-| Load Images and Masks     | Load ROI images and corresponding masks, apply preprocessing such as equalization and low-pass filter using convolution, and store them in lists.                                    |
+| Load Images and Masks     | Load ROI images and corresponding masks, apply preprocessing such as equalisation and low-pass filter using convolution, and store them in lists.                                    |
 | Preprocess Data           | Filter unlabelled data, extract features from images, and concatenate them into training data.                                                                                         |
 | Resample Dataset          | Upsample minority classes to balance the dataset.                                                                                                                                      |
 | Train-Test Split          | Split the data into training and testing sets.                                                                                                                                          |
-| Data Normalization        | Scale the features for Euclidean distance calculation.                                                                                                                                  |
+| Data Normalisation        | Scale the features for Euclidean distance calculation.                                                                                                                                  |
 | Train Classifiers         | Define and fit Random Forest, XGBoost, KNN, and SVM classifiers to the training data.                                                                                                  |
-| Evaluate Models           | Calculate confusion matrices and classification reports for each model using the test data. Save outcomes to files and visualize confusion matrices.                                   |
+| Evaluate Models           | Calculate confusion matrices and classification reports for each model using the test data. Save outcomes to files and visualise confusion matrices.                                   |
 
 ### Brief explanation of hsi_classical_ml_testing.py
 | Main Steps              | Brief Explanation                                                                                                                                                                  |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Import Libraries        | Import necessary libraries: `numpy`, `matplotlib.pyplot`, `gdal`, `confusion_matrix`, `classification_report`, `seaborn`, `joblib`, `ListedColormap`, `exposure`, `resample`, `imsave`, `PCA`, `convolve`.                           |
 | Read Bands File         | Read selected bands information from a text file and convert it into a list.                                                                                                       |
-| Load Images and Masks   | Load ROI images and corresponding masks, apply preprocessing such as equalization and low-pass filter using convolution, and store them in lists.                              |
+| Load Images and Masks   | Load ROI images and corresponding masks, apply preprocessing such as equalisation and low-pass filter using convolution, and store them in lists.                              |
 | Preprocess Data         | Filter unlabelled data, extract features from images, and concatenate them into training data.                                                                                     |
 | Resample Dataset        | Upsample minority classes to balance the dataset.                                                                                                                                  |
 | Load Saved Models       | Load trained models saved during training phase.                                                                                                                                   |
@@ -34,7 +34,7 @@
 | Selecting Bands                          | Reading selected bands information from a file and processing the input images and masks accordingly.                               |
 | Applying Low-pass Filter                 | Applying a 7x7 low-pass filter to input images using convolution and preprocessing them for prediction.                             |
 | Plotting Input, Mask, and Prediction    | Plotting input images, masks, and predictions for each ROI using different machine learning models (RF, SVC, XGB, KNN).             |
-| Saving Prediction Images                 | Saving the predicted images in ENVI format and exporting them as PNG images for visualization and further analysis.                  |
+| Saving Prediction Images                 | Saving the predicted images in ENVI format and exporting them as PNG images for visualisation and further analysis.                  |
 | Creating Custom Legend                   | Creating a custom legend for the predictions with color-coded labels for better interpretation.                                    |
 | Displaying and Exporting Results         | Displaying the final results, including input images, masks, and predictions, and exporting them as PNG images for further analysis. |
 

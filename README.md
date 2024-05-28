@@ -27,7 +27,7 @@ Each of these main folders is accompanied by a `README.md` file that provides fu
 
 - **ground_truth_labelling**: Contains the ground truth data and associated labeling files used for training and testing the detection models.
 
-- **ultispectral_dataset**: Contains the multispectral imaging datasets utilised in the project.
+- **multispectral_dataset**: Contains the multispectral imaging datasets utilised in the project.
 
 - **hyperspectral_dataset**: Holds the hyperspectral imaging datasets used in the project.
 

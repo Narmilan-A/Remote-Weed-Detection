@@ -13,7 +13,7 @@
 **Link:** [Read the Paper](https://www.mdpi.com/2072-4292/15/6/1633)
 
 
-## Final Report
+## Final report
 
 **Title:** Identification and Mapping of Hawkweed Using Machine Learning Techniques Applied to UAV-Acquired Multispectral and Hyperspectral Imagery
 

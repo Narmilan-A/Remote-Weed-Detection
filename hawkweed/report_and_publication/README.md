@@ -19,6 +19,6 @@
 
 **Prepared by:** Narmilan Amarasingam
 
-**Link:** [Read the Report](https://drive.google.com/file/d/122iNLR1wiCeaLgq8DsuNAr6PZBZ88MnO/view?usp=sharing).
+**Link:** [Read the Report](https://drive.google.com/file/d/122iNLR1wiCeaLgq8DsuNAr6PZBZ88MnO/view?usp=sharing)
 
 

@@ -11,7 +11,14 @@
 **Publication Date:** 23 March 2023
 
 **Link:** [Read the Paper](https://www.mdpi.com/2072-4292/15/6/1633)
-![all pipe](https://github.com/Narmilan-A/Remote-Weed-detection/assets/140802455/b867a932-6bce-4b88-9d34-5dec48d13f5c)
 
+
+## Final Report
+
+**Title:** Identification and Mapping of Hawkweed Using Machine Learning Techniques Applied to UAV-Acquired Multispectral and Hyperspectral Imagery
+
+**Prepared by:** Narmilan Amarasingam
+
+**Link:** [Read the Paper]([https://www.mdpi.com/2072-4292/15/6/1633](https://drive.google.com/file/d/122iNLR1wiCeaLgq8DsuNAr6PZBZ88MnO/view?usp=sharing))
 
 

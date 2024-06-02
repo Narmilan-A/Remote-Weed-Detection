@@ -1,4 +1,4 @@
-## Research and publication details
+## Research and publication
 
 **Title:** Autonomous detection of mouse-ear hawkweed using drones, multispectral imagery and supervised machine learning
 

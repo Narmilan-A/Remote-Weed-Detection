@@ -1,10 +1,10 @@
-## Machine Learning and Deep Learning Environment Configurations
+## Machine Learning Environment Configurations
 
 This repository contains the configurations for running Classical Machine Learning (ML) and Deep Learning (DL) models on different hardware setups. Below are the details of the hardware environments used for running the respective models.
 
 ### Classical ML (XGB / RF / SVM / KNN)
 
-#### High performance computing (HPC) (Optinal)
+#### High performance computing (HPC) (Optional)
 - **RAM**: 128GB
 - **CPU Cores (ncpus)**: 16
 

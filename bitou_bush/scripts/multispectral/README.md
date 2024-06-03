@@ -2,7 +2,7 @@
 ![image](https://github.com/Narmilan-A/Remote-Weed-detection/assets/140802455/0c1300b6-cb96-423b-948b-c8b7e145a8c1)
 
 ### Brief explanation of unet_training.py
-| Main steps                           | Brief Explanation                                                                                                                  |
+| Main steps                           | Description                                                                                                                  |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Import Libraries                     | Import Python libraries: NumPy, OS, Pandas, OpenCV, Matplotlib, Seaborn, scikit-image for image processing, GDAL for geospatial data handling, scikit-learn and Keras for model development. |
 | Calculate Vegetation Indices         | Define `calculate_veg_indices` function to compute various vegetation indices from multispectral images.                          |
@@ -16,7 +16,7 @@
 | IoU Calculation                      | Calculate and save Intersection over Union (IoU) for each class in segmentation.                                                    |
 
 ### Brief explanation of unet_testing.py
-| Main steps                           | Brief Explanation                                                                                                                  |
+| Main steps                           | Description                                                                                                                  |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Import Necessary Libraries          | Import Python libraries: NumPy, OS, Pandas, OpenCV, Matplotlib, Seaborn, scikit-image, GDAL, scikit-learn, and Keras for various tasks. |
 | Define the Root Directory           | Define `root folder` variable as the absolute path where the code operates.                                                         |
@@ -28,7 +28,7 @@
 | Calculate and Save IoU for Each Class | Calculate IoU for each class, save results to text file, compute and save average IoU.                                             |
 
 ### Brief explanation of unet_prediction.py
-| Main steps                           | Brief Explanation                                                                                                                  |
+| Main steps                           |                  Description                                                                                                 |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | Import Necessary Libraries          | Import Python libraries: NumPy, OS, Pandas, OpenCV, Matplotlib, Seaborn, scikit-image, GDAL, scikit-learn, and Keras for various tasks. |
 | Define the Root Directory           | Define `root folder` variable as the absolute path where the code operates.                                                         |
@@ -38,7 +38,7 @@
 | Prediction                          | Loop through each image file, apply preprocessing steps, extract patches, resize patches if necessary, predict using U-Net model, merge patches, save predicted image in ENVI format. |
 
 ### Brief explanation of label_rasterizing.py
-| Main steps                  | Brief Explanation                                                                                                   |
+| Main steps                  | Description                                                                                                   |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Import Libraries           | Import necessary libraries: `gdal`, `ogr` from the `osgeo` package, `os`, and `glob` for file and directory operations. |
 | Shape to raster function   | This function converts a shapefile to a raster mask based on a reference image's spatial extent and resolution. |

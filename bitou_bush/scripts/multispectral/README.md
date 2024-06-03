@@ -52,7 +52,7 @@
 | Define Functions           | Define functions for post-index calculation, calculation of vegetation indices, applying Gaussian blur, applying mean filter, and defining the UNet model architecture.                                                                                                                                                                                       |
 | Load and Preprocess Data   | Load image and mask files, filter them based on dimensions, apply preprocessing steps such as equalization, vegetation index calculation, band deletion, convolution, Gaussian blur, and mean filter. Split data into training and testing sets.                                                                   |
 | Train Model                | Define and compile the UNet model, apply K-Fold cross-validation, train the model for each fold, save the best model based on validation loss, and evaluate each fold's performance. Save model outcomes and evaluation results to files.                                                                  |
-| Visualize Results          | Plot and save graphs of validation accuracy and loss across folds, including average and standard deviation lines.                                                                                                                             |
+| Visualise Results          | Plot and save graphs of validation accuracy and loss across folds, including average and standard deviation lines.                                                                                                                             |
 ## NOTE
 ### Improving Model Performance
 
@@ -60,17 +60,17 @@ To enhance the performance of the model based on the provided code, the followin
 
 1. **Data Augmentation**: Augmenting the dataset by applying transformations such as rotation, scaling, flipping, and cropping can help diversify the training data, thereby improving the model's ability to generalize to unseen data.
 
-2. **Hyperparameter Tuning**: Experimenting with different learning rates, batch sizes, and epochs can optimize the model's training process. Techniques like learning rate scheduling and early stopping can also be employed to fine-tune training dynamics.
+2. **Hyperparameter Tuning**: Experimenting with different learning rates, batch sizes, and epochs can optimize the model's training process. Techniques such as learning rate scheduling and early stopping can also be employed to fine-tune training dynamics.
 
 3. **Architecture Modifications**: Adjusting the architecture of the neural network, such as adding more layers, increasing the number of filters, or using deeper network architectures, can enhance the model's capacity to capture intricate patterns in the data.
 
-4. **Regularization Techniques**: Incorporating regularization techniques like dropout or weight decay can prevent overfitting by imposing constraints on the model parameters during training.
+4. **Regularisation Techniques**: Incorporating regularisation techniques like dropout or weight decay can prevent overfitting by imposing constraints on the model parameters during training.
 
 5. **Transfer Learning**: Leveraging pre-trained models and fine-tuning them on the specific task at hand can expedite the training process and potentially improve performance, especially when working with limited training data.
 
 6. **Ensemble Learning**: Combining predictions from multiple models, either through averaging or stacking, can often lead to superior performance compared to individual models, by leveraging diverse sources of information.
 
-7. **Optimized Data Preprocessing**: Fine-tuning data preprocessing steps such as normalization, feature scaling, and handling missing values can ensure that the model receives high-quality input data, leading to improved performance.
+7. **Optimised Data Preprocessing**: Fine-tuning data preprocessing steps such as normalization, feature scaling, and handling missing values can ensure that the model receives high-quality input data, leading to improved performance.
 
 8. **Vegetation Indices**: Incorporating vegetation indices such as NDVI (Normalized Difference Vegetation Index), NDRE (Normalized Difference Red Edge), and MSAVI (Modified Soil-Adjusted Vegetation Index) can provide additional spectral information to the model, aiding in the discrimination of different vegetation types and enhancing classification accuracy.
 
@@ -88,7 +88,7 @@ To address memory errors during training, consider the following:
 - **Decrease Patch Size**: Reduce patch size from 256 to 128 or smaller, while also decreasing the overlap.
 - **Trim Down Model Layers**: Reduce the number of layers in the model architecture, transitioning from higher numbers (e.g., 1024) to lower ones (e.g., 64, 256, or 512).
 - **Adjust Batch Size and Learning Rate**: Modify batch size and learning rate to optimize memory usage during training.
-- **Utilize High-Performance Computing (HPC)**: Consider using powerful GPU setups like A100, QUT HPC, or Google Colab Pro Plus for successful training with large multispectral data and deep learning models.
+- **Utilise High-Performance Computing (HPC)**: Consider using powerful GPU setups such as A100 for successful training with large multispectral data and deep learning models.
 
 #### Prediction
 For memory-efficient prediction, follow these recommendations:

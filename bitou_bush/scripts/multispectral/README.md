@@ -45,7 +45,7 @@
 | Main function              | The main function orchestrates the rasterization process by iterating through input images and calling the shape to raster function for each, saving the output masks. |
 
 ### Brief explanation of unet_kfold_cross_validation.py
-| Main steps                  | Brief Explanation                                                                                                   |
+| Main steps                  | Description                                                                                                   |
 |-----------------------------|---------------------------------------------------------------------------------------------------------------------|
 | Import Libraries           | Import necessary libraries: `numpy`, `os`, `pandas`, `cv2`, `matplotlib`, `seaborn`, `exposure` from skimage, `convolve` from `scipy.ndimage`, `time`, `random`, and `tensorflow` modules. Also, import specific functions from `osgeo` (`gdal`) and scikit-learn (`train_test_split`, `KFold`). Import necessary functions and classes from Keras. |
 | Define Parameters          | Set various parameters controlling the operations, such as applying vegetation indices, Gaussian blur, mean filter, convolution, and band deletion. Specify image dimensions, tile size, overlap percentage, test size, learning rate, batch size, and epochs. Define class names and number of classes.                                           |

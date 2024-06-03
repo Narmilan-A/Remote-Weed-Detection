@@ -1,4 +1,4 @@
-## Research and publication details
+## Research and publication
 
 **Title:** Bitou bush detection and mapping using UAV-based multispectral and hyperspectral imagery and artificial intelligence
 

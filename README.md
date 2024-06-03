@@ -15,7 +15,7 @@ Understanding the opportunities and limitations of multi-resolution and multi-mo
 This repository hosts the resources and findings from the project "Weed Managers Guide to Remote Detection: Understanding Opportunities and Limitations of Multi-Resolution and Multi-Modal Technologies for Remote Detection of Weeds in Heterogeneous Landscapes." Over the past three years, our collaborative research has focused on developing efficient, accessible, and cost-effective remote detection methods to improve weed management strategies. Our project employed advanced technologies, including high-resolution RGB, multispectral, and hyperspectral imaging, across various drones. By leveraging artificial intelligence, including both classical machine learning and deep learning techniques, we successfully detected and mapped weed infestations in diverse conservation landscapes. This repository specifically targeted model weed systems such as hawkweed and bitou bush to assess the capabilities and limitations of these technologies. By sharing our research outcomes and practical insights, we aim to contribute to the development of improved and more feasible approaches for remote weed detection, ultimately supporting more effective weed management practices.
 
 ## Repository Structure
-The repository is organized into three main folders: `bitou_bush`, `hawkweed`, and `conda_packages`.
+The repository is organised into three main folders: `bitou_bush`, `hawkweed`, and `conda_packages`.
 The two main folders (Bitou_bush and Hawkweed) correspond to the model weed detection studied. Each of these folders contains several sub-folders, each dedicated to different aspects of the project. Here's an overview of the structure and contents of each folder:
 
 #### Main Folders

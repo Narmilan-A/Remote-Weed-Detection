@@ -32,7 +32,6 @@
 | Loading Saved Models                     | Loading pre-trained machine learning models (KNN, RF, SVC, XGB) from the specified file paths.                                      |
 | Displaying and Exporting Prediction Results | Displaying and exporting prediction results using custom colormaps for masks and predictions.                                       |
 | Selecting Bands                          | Reading selected bands information from a file and processing the input images and masks accordingly.                               |
-| Applying Low-pass Filter                 | Applying a 7x7 low-pass filter to input images using convolution and preprocessing them for prediction.                             |
 | Plotting Input, Mask, and Prediction    | Plotting input images, masks, and predictions for each ROI using different machine learning models (RF, SVC, XGB, KNN).             |
 | Saving Prediction Images                 | Saving the predicted images in ENVI format and exporting them as PNG images for visualisation and further analysis.                  |
 | Creating Custom Legend                   | Creating a custom legend for the predictions with color-coded labels for better interpretation.                                    |

@@ -2,7 +2,7 @@
 ![ml](https://github.com/Narmilan-A/Remote-Weed-detection/assets/140802455/bfe17d4c-94d6-47bb-bb3e-16e1fca6f3bb)
 
 ### Brief explanation of hsi_classical_ml_training.py
-| Main Steps                | Brief Explanation                                                                                                                                                                      |
+| Main Steps                | Description                                                                                                                                                                      |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Import Libraries          | Import necessary libraries: `numpy`, `matplotlib.pyplot`, `gdal` from `osgeo`, `train_test_split`, `RandomForestClassifier`, `confusion_matrix`, `classification_report`, `seaborn`, `SVC`, `xgb`, `KNeighborsClassifier`, `joblib`, `ListedColormap`, `exposure`, `resample`, `imsave`, `PCA`, `StandardScaler`, `convolve`. |
 | Read Bands File           | Read the selected bands information from a text file and convert it into a list.                                                                                                       |
@@ -15,7 +15,7 @@
 | Evaluate Models           | Calculate confusion matrices and classification reports for each model using the test data. Save outcomes to files and visualise confusion matrices.                                   |
 
 ### Brief explanation of hsi_classical_ml_testing.py
-| Main Steps              | Brief Explanation                                                                                                                                                                  |
+| Main Steps              | Description                                                                                                                                                                  |
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Import Libraries        | Import necessary libraries: `numpy`, `matplotlib.pyplot`, `gdal`, `confusion_matrix`, `classification_report`, `seaborn`, `joblib`, `ListedColormap`, `exposure`, `resample`, `imsave`, `PCA`, `convolve`.                           |
 | Read Bands File         | Read selected bands information from a text file and convert it into a list.                                                                                                       |
@@ -26,7 +26,7 @@
 | Validate Models         | Predict labels for training data using loaded models, calculate confusion matrices and classification reports for each model, and save outcomes to files.                         |
 
 ### Brief explanation of hsi_classical_ml_prediction.py
-| Step                                      | Brief Explanation                                                                                                                          |
+| Step                                      | Description                                                                                                                         |
 |-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | Importing Libraries                      | Importing necessary Python libraries including NumPy, Matplotlib, GDAL, joblib, and others.                                        |
 | Loading Saved Models                     | Loading pre-trained machine learning models (KNN, RF, SVC, XGB) from the specified file paths.                                      |

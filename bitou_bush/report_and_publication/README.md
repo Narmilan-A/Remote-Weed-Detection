@@ -28,8 +28,3 @@
 **Link:** [Read the Report](https://drive.google.com/file/d/1RjLhkti_QMQpVD6fnN82ID893NXms4Xa/view?usp=sharing)
 
 
-
-
-
-![unet_pipeline3](https://github.com/Narmilan-A/Remote-Weed-detection/assets/140802455/69b3c72f-40db-4069-a720-bb1a2665aadf)
-

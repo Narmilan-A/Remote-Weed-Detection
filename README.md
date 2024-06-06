@@ -1,4 +1,4 @@
-## Weed managers guide to Remote Detection
+## Weed Managers Guide to Remote Detection
 Understanding the opportunities and limitations of multi-resolution and multi-modal technologies for remote detection of weeds in heterogenous landscapes
 ![ai](https://github.com/Narmilan-A/Remote-Weed-detection/assets/140802455/fd66ff8f-abb0-4527-927e-81d46da6b8e6)
 

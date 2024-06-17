@@ -1,4 +1,4 @@
-## Processing pipeline for DL U-Net model training
+## Processing pipeline for U-Net model training
 ![image](https://github.com/Narmilan-A/Remote-Weed-detection/assets/140802455/0c1300b6-cb96-423b-948b-c8b7e145a8c1)
 
 ### Brief explanation of unet_training.py
